@@ -48,10 +48,14 @@ li:hover {
     margin-top: 130px;
 }
 
-
-
 .Img1 {
     margin: 7px;
+    float: left;
+}
+
+.Img2 {
+    margin: 7px;
+    float: right;
 }
 
 .Caja1 {
@@ -60,6 +64,13 @@ li:hover {
     margin: auto;
     background-color: rgb(223, 132, 132);
     box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+}
+
+.Hijo2 {
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(autp-fil, minmax(15rem, 1fr));
 }
 
 .Caja1:hover {
